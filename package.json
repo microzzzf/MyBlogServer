@@ -1,0 +1,28 @@
+{
+  "name": "MyBlogServer",
+  "version": "0.0.0",
+  "description": "This is a blog server with restify API.",
+  "main": "server.js",
+  "dependencies": {
+    "restify": "^4.0.3"
+  },
+  "devDependencies": {
+    "gulp-jshint": "^2.0.0",
+    "jshint": "^2.9.1",
+    "require-dir": "^0.3.0"
+  },
+  "scripts": {
+    "test": "gulp",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/microzzzf/MyBlogServer"
+  },
+  "author": "Fan Zhang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/microzzzf/MyBlogServer/issues"
+  },
+  "homepage": "https://github.com/microzzzf/MyBlogServer"
+}

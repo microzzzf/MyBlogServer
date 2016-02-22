@@ -6,4 +6,4 @@ var server = restify.createServer({
 
 require('./routes/index')(server);
 
-server.listen(3000);
+server.listen(4000);

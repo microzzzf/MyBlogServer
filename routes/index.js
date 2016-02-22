@@ -1,5 +1,5 @@
+'use strict';
+
 module.exports = function (server) {
-  server.get('/', function (req, res, next) {
-    res.send('helloworld');
-  });
+  require('./signup')(server);
 };
